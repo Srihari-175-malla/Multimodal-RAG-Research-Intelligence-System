@@ -1,0 +1,41 @@
+# Core
+python-dotenv==1.0.1
+pyyaml==6.0.1
+pydantic==2.7.1
+
+# PDF parsing
+pymupdf==1.24.9
+pdfplumber==0.11.4
+camelot-py[cv]==0.11.0
+
+# NLP / chunking
+tiktoken==0.7.0
+
+# Embeddings & reranking
+sentence-transformers==3.0.1
+torch==2.3.1
+
+# Retrieval
+rank-bm25==0.2.2
+qdrant-client==1.10.1
+faiss-cpu==1.8.0.post1
+
+# LLM
+anthropic==0.34.2
+
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# UI
+streamlit==1.37.0
+requests==2.32.3
+
+# Evaluation
+scikit-learn==1.5.1
+numpy==1.26.4
+
+# Testing
+pytest==8.2.2
+pytest-mock==3.14.0
